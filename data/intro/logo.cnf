@@ -1,0 +1,45 @@
+{
+    "texture" : "./intro/logo.png",
+    "area" : {
+        "tile1" : [0.0, 0.0, 0.2, 0.2],
+        "tile2" : [0.2, 0.0, 0.4, 0.2],
+        "tile3" : [0.4, 0.0, 0.6, 0.2]
+    },
+    "animation" : {
+        "animation1" : [
+            {
+                "timecode" : 0,
+                "area" : "tile1",
+                "mode" : {
+                    "type" : "copy"
+                }
+            },
+            {
+                "timecode" : 100,
+                "area" : "tile2",
+                "mode" : {
+                    "type" : "copy"
+                }
+            },
+            {
+                "timecode" : 1000,
+                "mode" : {
+                    "type" : "hide"
+                }
+            },
+            {
+                "timecode" : 1400,
+                "area" : "tile1",
+                "mode" : {
+                    "type" : "copy"
+                }
+            },
+            {
+                "timecode" : 2000,
+                "mode" : {
+                    "type" : "hide"
+                }
+            }
+        ]
+    }
+}

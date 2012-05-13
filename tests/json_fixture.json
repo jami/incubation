@@ -1,0 +1,14 @@
+{
+    "texture" : "./intro/logo.png",
+    "area" : {
+        "tile1" : [0.0, 0.0, 0.2, 0.2],
+        "tile2" : [0.2, 0.0, 0.4, 0.2],
+        "tile3" : [0.4, 0.0, 0.6, 0.2]
+    },
+    "setting" : {
+        "filter" : {
+            "mipmap" : true,
+            "alpha" : 0.5
+        }
+    }
+}
