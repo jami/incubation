@@ -11,6 +11,7 @@ ADD_LIBRARY(tdengine SHARED
     image.c
     json.c
     ressource.c
+    gui.c
 )
 
 SET_TARGET_PROPERTIES(tdengine PROPERTIES LIBRARY_OUTPUT_DIRECTORY "${COMMON_LIBRARY_OUTPUT_DIRECTORY}")

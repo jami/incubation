@@ -6,6 +6,7 @@
 #include "json_test.h"
 #include "ressource_test.h"
 #include "image_test.h"
+#include "gui_test.h"
 
 int main (int argc, char** argv) {
    /* initialize the CUnit test registry */
@@ -25,6 +26,8 @@ int main (int argc, char** argv) {
    get_ressource_testsuite();
    /* image testsuite  */
    get_image_testsuite();
+   /* gui testsuite  */
+   get_gui_testsuite();
    /* Run all tests using the CUnit Basic interface */
    /*CU_set_output_filename("cunit_testall");
    CU_list_tests_to_file();

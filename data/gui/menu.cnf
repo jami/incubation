@@ -1,8 +1,37 @@
 {
-    "texture" : "./menu/menu.png",
+    "texture" : "./gui/menu.png",
     "area" : {
         "all" : [0.0, 0.0, 1, 1],
-        "tile2" : [0.2, 0.0, 0.4, 0.2],
-        "tile3" : [0.4, 0.0, 0.6, 0.2]
-    }
+        "frame_border" : [0.2, 0.0, 0.4, 0.2],
+        "frame_top" : [0.4, 0.0, 0.6, 0.2],
+        "frame_side" : [0.4, 0.0, 0.6, 0.2],
+        "button_border" : [0.2, 0.0, 0.4, 0.2],
+        "button_top" : [0.4, 0.0, 0.6, 0.2],
+        "button_side" : [0.4, 0.0, 0.6, 0.2]
+    },
+    "frame" : [
+        {
+            "name" : "menu1",
+            "type" : "frame",
+            "focus" : true,
+            "align" : "center",
+            "childs" : [
+                {
+                    "name" : "startbutton",
+                    "type" : "button",
+                    "caption" : "New Game"
+                },
+                {
+                    "name" : "resumebutton",
+                    "type" : "button",
+                    "caption" : "Resume"
+                },
+                {
+                    "name" : "quitbutton",
+                    "type" : "button",
+                    "caption" : "Quit"
+                }
+            ]
+        }
+    ]
 }

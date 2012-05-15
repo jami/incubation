@@ -10,6 +10,7 @@ add_executable(test_lib
     json_test.c
     ressource_test.c
     image_test.c
+    gui_test.c
 )
 
 set_target_properties(test_lib
